@@ -9,3 +9,4 @@ y = 2*x
 print ('talent' ,y, 'är två gånger större än' ,x )
 food = input ('vad är din favorit mat lucia? ')
 print ('min favorit är ris.' + food)
+print("update")
