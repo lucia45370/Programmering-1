@@ -1,0 +1,11 @@
+name = input ('what is your name? ')
+print ('helllo ' + name)
+y = input('vad gör du? ')
+print ('ju jag jobbar med teknik nu', y)
+a= input ('vad är 4+5?:')
+print ('det är 9', y)
+x = int (input('skriv ett tal:'))
+y = 2*x
+print ('talent' ,y, 'är två gånger större än' ,x )
+food = input ('vad är din favorit mat lucia? ')
+print ('min favorit är ris.' + food)
