@@ -1,0 +1,30 @@
+print ('välkommen till mitt prov exempel.')
+#lägg till 3 på olika sätt
+score = 0
+
+print('A. jay z/nB. Lil wayne/nC. Rick ross')
+
+answer1 = input('who had the best verse in God did?')
+
+if answer1 == "B":
+    score += 3
+
+print('A. QC/nB. Roc Nation/nc.YMCMB/nD. Atlantic records')
+
+answer2 = input('vad heter lil wayne records label?')
+if answer2 == "C":
+        score += 3
+
+print ('A.burna boy/nB. wizkid/nC. Davido ')
+answer3 = input('what artist is the best in Africa now?')
+if answer3 == "c":
+        score -= 3
+print ('A. cardi b/nB.Megan thee stallion/nC.Nicki minaj/nD. Doja cat')
+answer4 = input('who is the best female rapper?')
+if answer4 == 'c':
+        score += 3
+
+
+print ('you have come to the end of the game.')
+print('if you got all,then your score is 12.')
+
