@@ -1,0 +1,11 @@
+x = input ('vilken gymnasiet gå du till? ')
+print ('jag går i NTI gymnasiet' ,x)
+y = input ('how do you like it so far? ')
+print ('intresting and stressful i would say.' ,y)
+s = input('so can you show me how to math with programming? ') 
+print ('yea sure! ')
+b = ('vad är 5*9?: ')
+print ('det är 45' ,y)
+p = int (input('skriv ett tal: '))
+y = 2*p 
+print ('talent',y, 'är två gånger större än' ,p)
