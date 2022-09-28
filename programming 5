@@ -1,0 +1,38 @@
+# Travelbag
+# Skelettkod till uppgiften
+
+# skapa en lista 
+resväskan = ['toothbrush','sanitary pads','pygamas','trousers','tops','shoes','cross bags','towels','skincare','jackets']
+
+while True:
+   menyval = input("1. Kolla i resväskan\n"
+                   "2. Lägg sak i resväskan\n"
+                   "3. Ta bort sak i resväskan\n"
+                   "4. Avsluta program")
+
+   if menyval == "1":
+       print (resväskan)
+       #len 
+       print(len (resväskan))
+       
+
+
+   elif menyval == "2":
+     tabort =input('vilken ska vi ta ut ?')
+     resväskan.tabort('pygamas')
+     print ('pygamas')
+
+       
+   elif menyval == "3":
+       #sotera
+       resväskan.sort()
+       #print ut listior -använd'unpack'
+       print(resväskan)
+       print('resväskan,sep=','')
+       #loppa igenom listor
+       
+       
+
+      
+   elif menyval == "4":
+       break
