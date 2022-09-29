@@ -1,0 +1,70 @@
+# Övning 3 går ut på att implementera så många av nedanstående funktioner som möjligt
+# Ta bort pass och implementera funktionerna
+
+
+def best(name):
+    print(name, "är bäst.")
+
+    # TODO Skriv ut att namnet är bäst
+    # Ex: "Katherine" in - skriver ut "Katherine är bäst"
+    pass
+
+best("Lucia")
+best("lucinda")
+best("lucius")
+
+def square(number):
+    print(number ** 2)
+    # TODO Returnera talet kvadrerat
+    # Ex: 5 in - 25 ut
+   
+
+
+square(5)
+square(7)
+square(20)
+
+def sums(a, b):
+    print(a + b)
+    
+
+sums(12, 13)
+
+# Nu blir det lite svårare
+
+
+def maximum(a, b, c):
+    if  c >a and c>b:
+        print(c)
+    elif a>b and a>c:
+        print(a)
+    if b>a and b>c:
+        print(b)
+maximum(a=25,b=30,c=59)
+
+def palindrom(ord):
+    print (ord, 'är ett ord som stavas likadant.')
+    # TODO Returnera True om ord är ett palindrom
+    # Ex: abba in - True ut
+    # Palindrom är ett ord som stavas likadant baklänges och framlänges.
+    pass
+
+palindrom('daniella och emmanuella')
+
+
+
+def prime(nr):
+    for i in range(2,nr):
+        
+        if nr % i == 0:
+            return'false'
+    
+    return 'true'
+    
+    # TODO Returnera True om nr är ett primtal, annars returnera false
+    # Ex: 5 in - True ut
+    pass
+
+prime(2)
+prime(3)
+print(prime(37))
