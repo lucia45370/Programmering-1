@@ -3,7 +3,8 @@
 
 # skapa en lista 
 resväskan = ['toothbrush','sanitary pads','pygamas','trousers','tops','shoes','cross bags','towels','skincare','jackets']
-
+name=input ('vad heter du?')
+print ('valkommen', name, 'till mitt program.jag ska resa till Italy och jag behover hjälp att plocka upp mina saker.')
 while True:
    menyval = input("1. Kolla i resväskan\n"
                    "2. Lägg sak i resväskan\n"
@@ -11,28 +12,15 @@ while True:
                    "4. Avsluta program")
 
    if menyval == "1":
-       print (resväskan)
-       #len 
-       print(len (resväskan))
-       
-
-
+    print (*resväskan)
    elif menyval == "2":
-     tabort =input('vilken ska vi ta ut ?')
-     resväskan.tabort('pygamas')
-     print ('pygamas')
+        name=input("vad vill du l'gga till")
+        resväskan.append(name)
+        print(*resväskan)
+   elif menyval =="3":
+        name=input()
+        resväskan.remove(name)
+        print (*resväskan)
 
-       
-   elif menyval == "3":
-       #sotera
-       resväskan.sort()
-       #print ut listior -använd'unpack'
-       print(resväskan)
-       print('resväskan,sep=','')
-       #loppa igenom listor
-       
-       
-
-      
-   elif menyval == "4":
-       break
+   elif menyval =="4":
+            break
