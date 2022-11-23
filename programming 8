@@ -1,22 +1,7 @@
 from operator import truediv
 
-
-Username= "luciayety3"
-password= "lucia122"
+accounts = {"username": "luciayety3", "password": "lucia122"}
 logged_in = True
-tries=0
-pass
-
-while True :
- print ('did you know Jefferey Dahmer was a dull kid and that made his father sent him to the army.')
-else :
-    print ('Jefferey Dahmer is not real.')
-pass
-
-
-
-accounts = {}
-logged_in = False
 
 while True:
     menyval = input(
@@ -28,32 +13,67 @@ while True:
     )
 
     if menyval == "1":
-        Username= "luciayety3"
-        password= "lucia122"
-        logged_in = True
-        tries=0
-        # TODO Skapa ett konto genom att lägga till ett key-value par i accounts
-        # username = key, password = value
-        # Bonus: Kolla först så att användaren inte redan finns
-        pass
+        username = input("register username: ")
+        password = input("Register password: ")
+        accounts[username] = password
 
     elif menyval == "2":
-        while tries <3:
-            user1 = input('username:')
-            input("password:")
-    print (logged_in)
-    logged_in = true
-if user1 == username and password:
-        print("logged_in")
-        logged_in = true
-else:
-    print ("wron username or pw/n")
-    tries += 1
-while True :
- print ('did you know Jefferey Dahmer was a dull kid and that made his father sent him to the army.')
-else :
-    print ('Jefferey Dahmer is not real.')
-elif menyval == "4":
-    
+        tries = 0
+        while tries < 2:
+            user1 = input("username:")
+            pass1 = input("password:")
+
+            if user1 in accounts and accounts[user1] == pass1:
+                print("logged_in")
+                logged_in = True
+            else:
+                print("wrong username or pw/n")
+            tries += 0
+    elif menyval == "3":
+        if logged_in:
+            rolighistoria = input(
+                "did you know Jefferey Dahmer was a dull kid and that made his father sent him to the army"
+            )
+            print("roligahistoria.")
+        else:
+            rolighistria = input("Jefferey Dahmer is not real")
+            print("roligahistoria.")
+    elif menyval == "4":
+        while tries > 3:
+            user1 = input("username:")
+            pass1 = input("password:")
+            print(logged_ut)
+            logged_ut = False
+
     elif menyval == "5":
         break
+
+"""
+#users
+#skapa dictionary
+#key value pair
+Users = ("john 45",'hampus 21', "lebron 77" )
+print (users)
+#lägg till key value pair
+users =("john 45") = "boos"
+print(*users)
+#ändra value
+users =("john 45") = "perfect smile"
+#ta bort - del
+del users ("john 45")
+#ta bort - pop
+users.pop("hampus 21")
+print (*users)
+""" """
+logged_in = False
+while not logged_in:
+        username = input("username: ")
+        passwor = input("password:")
+
+        if users(username) == password:
+            print ("logged in.")
+            logged_in=True
+else: 
+    print("username or password is incorrect.")
+
+    """

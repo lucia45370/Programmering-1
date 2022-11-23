@@ -1,0 +1,15 @@
+def func(x, y):
+    return x + y
+
+
+print(func(5, 13))
+# lambda
+# variablenamn = lambda prameter1,parameter2,
+func2 = lambda x, y: x + y
+# sortera lista av tuples
+students = (("eik", 15), (""))
+# sortera default på index(0)
+students.sort()
+# om vi vill sortera på andra index använda lambda-funktion
+students.sort(key=lambda x: x(1))
+print(students)

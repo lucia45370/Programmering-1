@@ -1,0 +1,18 @@
+tal = (9, 10, 5, 8, 11, 6)
+
+
+def sort(tal):
+    sorted = True
+
+    while sorted:
+        sorted = False
+        for i in range(len(tal)):
+            for j in range(len(tal) - 1):
+                if tal(j) > tal(j + 1):
+                    # byta plats
+                    tal(J), tal(j + 1), tal(j)
+                    sorted = True
+
+
+sort(tal)
+print(tal)
