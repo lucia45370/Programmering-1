@@ -1,0 +1,36 @@
+# Python program for implementation of Bubble Sort
+
+
+def bubbleSort(arr):
+    n = len(arr)
+    # optimera kod, så om arrayen redan är sorterad behöver den inte
+    # att gå igenom hela processen
+    swapped = False
+    # Gå igenom alla array element
+    for i in range(n - 1):
+        # range(n) fungerar också men den yttre slingan kommer att fungera
+        # upprepa en gång mer än nödvändigt.
+        # Sista i-elementen är på plats
+        for b in range(0, n - i - 1):
+
+            # korsa matrisen från 0 till n-i-1
+            # Byt om det hittade elementet är större
+            # än nästa element
+            if arr[b] > arr[b + 1]:
+                swapped = True
+                arr[b], arr[b + 1] = arr[b + 1], arr[b]
+
+        if not swapped:
+            # om vi inte har behövt göra ett enda byte, vi
+            # kan bara lämna huvudslingan.
+            return
+
+
+# Driver code to test above
+arr = [53, 79, 25, 17, 32, 42, 100]
+
+bubbleSort(arr)
+
+print("Sorted array is:")
+for i in range(len(arr)):
+    print("% d" % arr[i], end=" ")
