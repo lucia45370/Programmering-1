@@ -1,6 +1,6 @@
 grade_value =input('A':20,'B':17,5,'C':15,'D':13,5,'E':10,'F':0)
-grades =('teknik1':D,'matte1':E,'matte2':E,)
-course_points =('teknik1':150, 'matte1':150, 'matte1':150)
+print ('teknik1':D,'matte1':E,'matte2':E,)
+course_points = ('teknik1':150, 'matte1':150, 'matte1':150)
 
 
 for course,grade in grades.items():
@@ -11,7 +11,7 @@ course = input ("vilken kurs vill du lägg til").capitalize()
 if course in grades:
     print("du har inte  betyg i.(course)har betyget(grades(course)).")
 else:
-    grades = input("vilket betyg hardu i (course)").capitalise()
+    grades = input("vilket betyg har du i (course)").capitalise()
 
 course = input ("vilken kurs vill du lägg til").capitalize()
 if course in grades:

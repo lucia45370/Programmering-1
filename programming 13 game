@@ -69,6 +69,7 @@ questions = {
     "how can you go 10 days without sleep?: ": "A",
     "what has 13 hearts , but no lungs or stomach?: ": "D",
     "if you have it, you dont share it, but if you share it you dont have it, what am i?: ": "C",
+    "i am something that is black in the morning red in the evening and white in the night, what am i?: ": "c",
 }
 
 options = [
@@ -78,6 +79,7 @@ options = [
     ["A.sleep at night ", "B. with cofee", "C. with alcohol", "D. reading books"],
     ["A. HUMANS", "B. books", "C. a drum" "D. A Card"],
     ["A. your money", "B.your clothes", "C. A secret", "D. your baby"],
+    ["A. charger", "B. biscuits", "C. charcoal", "D. laptop"],
 ]
 
 answers = ["B" "B" "A" "A" "D" "C"]

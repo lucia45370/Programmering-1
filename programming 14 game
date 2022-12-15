@@ -1,4 +1,5 @@
 # -------------------------
+# this fucnction just shows this is a guessing game.
 def new_game():
     guesses = []
     correct_guesses = 0
@@ -20,6 +21,7 @@ def new_game():
 
 
 # -------------------------
+# this fuction is to give an assurance that you have either passed or not.
 def check_answer(answer, guess):
 
     if answer == guess:
@@ -31,6 +33,7 @@ def check_answer(answer, guess):
 
 
 # -------------------------
+# This function is to make sure you know when you get correct answer or not.
 def display_score(correct_guesses, guesses):
     print("--------------------")
     print("RESULTS")
@@ -51,6 +54,7 @@ def display_score(correct_guesses, guesses):
 
 
 # -------------------------
+# this helps if you would like to play one more time.
 def play_again():
     response = input("would you like to go again? (yes or nah):")
     response = response.upper()
@@ -61,6 +65,7 @@ def play_again():
 
 
 # -------------------------
+# this are the questions and answers.
 
 questions = {
     "i have four legs in the morning,two in the afternoon and 3 in the night, what am i?: ": "B",
